@@ -1,0 +1,27 @@
+.Header-components {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.Header-item {
+    display: flex;
+    align-items: center;
+}
+
+.Header-item a {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.Header-item a:hover {
+    color: orange;
+}
